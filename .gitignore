@@ -8,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+myenv/
 build/
 develop-eggs/
 dist/
@@ -87,3 +88,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+/lgbm_model.pkl
+/tfidf_vectorizer.pkl
+/experiment_info.json
