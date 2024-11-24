@@ -8,7 +8,6 @@ matplotlib
 seaborn
 mlflow
 awscli
-boto3
 dvc-s3
 wordcloud
 flask
