@@ -132,6 +132,7 @@ def main():
     mlflow.set_experiment('dvc-pipeline-runs')
     
     with mlflow.start_run() as run:
+        mlflow.set_tag("mlflow.runName", "Final Model")
         try:
             # Load parameters from YAML file
             root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))

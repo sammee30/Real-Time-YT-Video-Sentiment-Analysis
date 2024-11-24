@@ -10,3 +10,7 @@ mlflow
 awscli
 boto3
 dvc-s3
+wordcloud
+flask
+flask_cors
+pytest
