@@ -13,3 +13,4 @@ wordcloud
 flask
 flask_cors
 pytest
+boto3
